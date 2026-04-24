@@ -1,0 +1,5 @@
+name: LuckyBag
+main: com.kotiki.luckybag.LuckyBagPlugin
+version: 1.0
+api: ["1.0.0"]
+author: Kotiki

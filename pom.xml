@@ -1,26 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0">
-    <modelVersion>4.0.0</modelVersion>
+<build>
+    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+        </resource>
+    </resources>
 
-    <groupId>com.kotiki</groupId>
-    <artifactId>LuckyBag</artifactId>
-    <version>1.0</version>
-
-    <build>
-
-        <!-- 💡 ВАЖНО: добавляем ресурсы -->
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
-        </resources>
-
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
-            </plugin>
-        </plugins>
-
-    </build>
-</project>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.3.0</version>
+        </plugin>
+    </plugins>
+</build>

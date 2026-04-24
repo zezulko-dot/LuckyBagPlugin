@@ -6,6 +6,14 @@
     <version>1.0</version>
 
     <build>
+
+        <!-- 💡 ВАЖНО: добавляем ресурсы -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -13,5 +21,6 @@
                 <version>3.3.0</version>
             </plugin>
         </plugins>
+
     </build>
 </project>
